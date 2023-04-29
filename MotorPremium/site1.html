@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorPremium - Venda de automóveis</title>
+    <style>
+		body {
+			background-color: #f2f2f2;
+			color: #333;
+			font-family: Arial, sans-serif;
+            text-align: center;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;            
+		}
+        header h1{
+            margin-left: 100px;
+        }
+        nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 20px;
+			display: flex;
+            margin-right: 100px;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 16px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		nav a:hover {
+			color: #f2f2f2;
+		}
+
+		main h2 {
+			font-size: 40px;
+			font-weight: bold;
+			margin-top: 30px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+		}
+        .button {
+			background-color: #f00;
+			color: #fff;
+			padding: 10px 20px;            
+			border: none;
+			border-radius: 5px;
+			font-weight: bold;
+			font-size: 16px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+            margin-bottom: 30px;
+		}
+        .price {
+			font-size: 28px;
+			font-weight: bold;
+			color: #f00;
+			margin: 10px 0;
+		}
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 20px;
+		}
+
+		article {
+			flex-basis: calc(33.33% - 20px);
+			margin-bottom: 20px;
+			background-color: #fff;
+			padding: 10px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+			transition: all 0.3s ease-in-out;
+		}
+
+		article:hover {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			transform: translateY(-5px);
+		}
+
+		article img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+       article h2{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+		article h3 {
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		article p {
+			font-size: 16px;
+			margin: 0;
+		}
+
+		article button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		article button:hover {
+			background-color: #f2f2f2;
+			color: #333;
+		}
+
+		footer {
+			background-color: #333;
+            color: #fff;
+            padding: 40px; /* aumentar o valor da propriedade padding */
+            text-align: center;
+            margin-top: 30px;
+		}
+
+		footer p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+    </style>
+</head>
+<body>
+    <header>
+		<h1>MotorPremium</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Início</a></li>
+				<li><a href="#">Carros à venda</a></li>
+				<li><a href="#">Sobre nós</a></li>
+				<li><a href="#">Contactos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+        <h2>Carros à venda</h2>
+		<section>
+            
+            <div class="car">
+                <img src="imagens/bmw x4.jpg" alt="BMW X4 2.0 D" title="BMW X4 2.0 D" style="width: 50%;">
+                <h3>BMW X4 2.0 D Pack M X Drive Auto</h3>
+                <p>ANO: 2021</p>
+                <p class="price">73.500€</p>
+                <button class="button">Comprar</button>
+            </div>
+            <div class="car">
+                <img src="imagens/audi.jpeg" alt="Audi" style="width: 50%;">
+                <h3>Audi</h3>
+                <p>Descrição do carro </p>
+                <p class="price">€60.000</p>
+                <button class="button">Comprar</button>
+            </div>
+            <div class="car">
+                <img src="imagens/mercedes.jpeg" alt="Mercedes" style="width: 50%;">
+                <h3>Mercedes</h3>
+                <p>Descrição do carro 3.</p>
+                <p class="price">€90.000</p>
+                <button class="button">Comprar</button>
+            </div>
+        </section>
+	</main>
+
+	<footer>
+		<p>Todos os direitos reservados MotorPremium&reg; 2023</p>
+	</footer>
+</body>
+</html>
