@@ -1,0 +1,118 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;   
+}
+
+h1 {
+    text-align: center;
+    color: #34495e
+}
+
+h2 { 
+    background-color:rgb(35, 37, 35);
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+h3{
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {  
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height:2;
+    margin: 10px;
+}
+
+iframe{
+    margin-left: 20px;
+    margin-right: 10px;
+   
+}
+
+header{
+    margin: 10px;
+    /* permite posicionar os elementos com base no header */
+    position:relative;
+}
+
+header .current a{
+    color:#ac0762;
+    font-weight:bold;
+}
+      
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+.menu_opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.menu_opcoes a{
+    color: gray;
+    text-decoration: none;
+}
+     
+.menu_opcoes li{
+    font-size: 15px;
+    /* menu na horizontal */
+    display: inline; 
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+/* galeria */
+div.gallery {
+    margin: 10px; /*espaço entre as imagens*/
+    border: 2px solid rgb(116, 117, 116); /*border da galeria toda*/
+    float: left;
+    width: 350px;
+    margin-left: 40px;
+}
+  
+/* passar por cima das imagens */
+div.gallery:hover {
+    border: 1px solid rgb(9, 233, 58);
+}
+
+  /*imagem da galeria*/
+div.gallery img {
+    width: 350px;;
+    height: 300px; 
+    
+}
+  
+/*classe do texto da imagem*/
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+footer{
+    clear: left; /*limpa formatação esquerda*/
+    background-color:rgb(35, 37, 35);;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer p{
+    text-align: center;
+}
+
